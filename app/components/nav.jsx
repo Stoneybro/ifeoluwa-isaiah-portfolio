@@ -6,7 +6,7 @@ const nav = () => {
   const {dark}=useGlobalcontext()
   return (
     <div className="w-full sticky top-0 z-10 ">
-    <div className={`max-w-[1190px] z-20  mx-auto py-2 ${dark?'text-white':'text-black'} transition duration-[1s] font-serif font-bold   flex justify-between items-center`}>
+    <div className={`max-w-[95vw] z-20  mx-auto py-2 ${dark?'text-white':'text-black'} transition duration-[1s] font-serif font-bold   flex justify-between items-center`}>
      
       <Link href={``} className=' '>
         IFEOLUWA ISAIAH

@@ -7,7 +7,7 @@ const heroFooter = () => {
 
   return (
     <div className="w-full sticky top-0 z-10 ">
-    <div className="max-w-[1190px] z-20  mx-auto py-2 text-black font-serif font-bold   flex justify-between items-end">
+    <div className="max-w-[95vw] z-20  mx-auto py-2 text-black font-serif font-bold   flex justify-between items-end">
      
       <div className="flex gap-16 items-end">
 

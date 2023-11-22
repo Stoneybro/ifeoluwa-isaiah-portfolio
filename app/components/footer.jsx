@@ -3,7 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <div className=" text-white bg-black  w-full font-serif py-2">
-    <div className="flex max-w-[1190px] mx-auto justify-between items-center">
+    <div className="flex max-w-[95vw] mx-auto justify-between items-center">
       <div className="">Hello@ifeoluwaisaiah.com</div>
       <div className="">MADE BY NEXTSTUDIO</div>
       <div className="flex items-center gap-2">

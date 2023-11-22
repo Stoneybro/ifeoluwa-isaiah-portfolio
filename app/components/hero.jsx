@@ -32,28 +32,31 @@ const hero = () => {
     })})
 
   return (
-    <div className='h-[94vh] overflow-hidden relative ' ref={wrapper}>
-      <div className=" w-[410vh] justify-between flex pr-32 pl-12 " ref={container}>
-      <div className="w-full h-[75vh] flex gap-6">
+    <div className='h-[94vh] overflow-hidden relative font-sans ' ref={wrapper}>
+      <div className=" w-[450vh] justify-between flex pr-32 pl-8 " ref={container}>
+      <div className="w-full h-[75vh] flex gap-8">
 
 
-        <div className="flex flex-col h-full  gap-4 w-[60vh]">
-          <div className="relative h-[60vh]">
+        <div className="flex flex-col h-full  gap-4 w-[55vh]">
+          <div className="relative h-[55vh]">
           <Image
           src={img1}
           fill
           />
           </div>
-       <div className="font-bold font-serif">
-       Hello, I’m Ifeoluwa Isaiah aka Product boy, a passionate photographer from Lagos, Nigeria.
+       <div className="font-bold font-serif ">
+       Hello, I’m <span className=' font-sans italic' style={{'font-family':'font-sans'}}>Ifeoluwa Isaiah</span> aka Product boy, a passionate photographer from Lagos, Nigeria.
        </div>
         </div>
 
 {/* //////////////////////////// */}
         <div className="flex flex-col h-full  gap-4 w-[80vh] justify-end">
-        <div className="font-bold font-serif">
-        Product
-        Photographer
+        <div className="font-semibold font-serif text-3xl">
+
+          Product
+      <span className="italic" style={{'font-family':'font-sans'}}> Photographer</span> 
+
+
        </div>
           <div className="relative h-[50vh]">
           <Image
@@ -88,8 +91,8 @@ const hero = () => {
 
 {/* //////////////////////////// */}
 <div className="flex flex-col h-full  gap-4 w-[50vh] justify-end">
-<div className="font-bold font-serif">
-          Product Boy
+<div className="font-bold text-right">
+          <span className="font-sans italic text-3xl">Product Boy</span>
        </div>
           <div className="relative h-[50vh]">
 
@@ -142,7 +145,7 @@ const hero = () => {
 
                         {/* //////////////////////////// */}
 <div className="flex flex-col h-full  gap-4 w-[40vh] justify-start">
-          <div className="relative h-[65vh]">
+          <div className="relative h-[50vh]">
 
           <Image
           src={img7}
@@ -150,7 +153,7 @@ const hero = () => {
           className='object-cover'
           />
           </div>
-          <Link href={"#"} className="font-bold font-serif">
+          <Link href={"#"} className="font-bold font-serif text-xl">
 VIEW ALL WORK 
        </Link>
         </div>

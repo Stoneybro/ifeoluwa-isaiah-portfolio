@@ -1,6 +1,5 @@
 import './globals.css'
 import { DM_Serif_Display } from 'next/font/google'
-const DMSerifDisplay = DM_Serif_Display({weight:['400',], subsets: ['latin'] })
 import localFont from 'next/font/local'
 import Nav from './components/nav'
 import Footer from './components/footer'
@@ -35,11 +34,12 @@ const HKGrotesk=localFont({
 
   ],variable:'--HKGrotesk'
 })
+const DMSerifDisplay = DM_Serif_Display({weight:['400',], subsets: ['latin'] })
 import Provider from './components/hooks/Provider'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={` ${HKGrotesk.variable} ${DMSerifDisplay.variable}`}>
+      <body className={`  ${DMSerifDisplay.className} ${HKGrotesk.variable} `}>
     
         <Provider>
         <Nav/>
