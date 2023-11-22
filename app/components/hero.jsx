@@ -33,7 +33,7 @@ const hero = () => {
 
   return (
     <div className='h-[94vh] overflow-hidden relative font-sans ' ref={wrapper}>
-      <div className=" w-[450vh] justify-between flex pr-32 pl-8 " ref={container}>
+      <div className=" w-[450vh] justify-between flex pr-32 pl-[6.5vh] " ref={container}>
       <div className="w-full h-[75vh] flex gap-8">
 
 
@@ -51,9 +51,9 @@ const hero = () => {
 
 {/* //////////////////////////// */}
         <div className="flex flex-col h-full  gap-4 w-[80vh] justify-end">
-        <div className="font-semibold font-serif text-3xl">
+        <div className="font-semibold font-serif text-3xl text-right">
 
-          Product
+          Product <br/>
       <span className="italic" style={{'font-family':'font-sans'}}> Photographer</span> 
 
 
