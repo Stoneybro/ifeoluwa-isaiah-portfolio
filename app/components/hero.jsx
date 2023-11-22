@@ -37,17 +37,18 @@ const hero = () => {
       <div className="w-full h-[75vh] flex gap-8">
 
 
-        <div className="flex flex-col h-full  gap-4 w-[55vh]">
-          <div className="relative h-[55vh]">
-          <Image
-          src={img1}
-          fill
-          />
-          </div>
-       <div className="font-bold font-serif ">
-       Hello, I’m <span className=' font-sans italic' style={{'font-family':'font-sans'}}>Ifeoluwa Isaiah</span> aka Product boy, a passionate photographer from Lagos, Nigeria.
-       </div>
+      <div className="flex flex-col h-full  gap-4 w-[55vh]">
+        <div className="relative h-[55vh]">
+        <Image
+        src={img1}
+        fill
+        />
         </div>
+      <div className="font-bold font-serif ">
+      Hello, I’m <span className=' font-sans italic' style={{'font-family':'font-sans'}}>Ifeoluwa Isaiah</span> aka Product boy, a passionate photographer from Lagos, Nigeria.
+      </div>
+      </div>
+
 
 {/* //////////////////////////// */}
         <div className="flex flex-col h-full  gap-4 w-[80vh] justify-end">
@@ -69,10 +70,8 @@ const hero = () => {
         </div>
 
 
-
-
 {/* //////////////////////////// */}
-<div className="flex flex-col h-full  gap-4 w-[50vh] justify-end">
+<div className="flex flex-col h-full  gap-4 w-[50vh] ">
 
           <div className="relative h-[62vh]">
           <Image
@@ -85,8 +84,6 @@ const hero = () => {
           In the world of product photography, I have a keen eye for highlighting the unique qualities of any object
        </div>
         </div>
-
-
 
 
 {/* //////////////////////////// */}
@@ -126,7 +123,7 @@ const hero = () => {
 
 
                 {/* //////////////////////////// */}
-<div className="flex flex-col h-full  gap-4 w-[75vh] justify-start">
+<div className="flex flex-col h-full  gap-4 w-[75vh] justify-end">
 <div className="font-bold font-serif">
           Product photography is such a paramount aspect in selling out your business as a very good photograph has the ability to do the job of a hundred sales-man, what my photographs have to offer to your brand cannot be overemphasized .
        </div>
@@ -153,7 +150,7 @@ const hero = () => {
           className='object-cover'
           />
           </div>
-          <Link href={"#"} className="font-bold font-serif text-xl">
+          <Link href={"#"} className="font-bold font-serif">
 VIEW ALL WORK 
        </Link>
         </div>
